@@ -1,0 +1,1796 @@
+@media (min-width:1025px) {
+    #image {
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      transition: top 0.8s ease-in-out, left 0.8s ease, scale 0.8s ease, opacity 0.8s ease;
+      z-index: 1;
+    }
+  
+    #image1 {
+      height: 90%;
+      position: absolute;
+      top: 70px;
+      right: 0px;
+      transform: translateX(0px) translateY(0px);
+      /* transition: transform 0.8s ease-in-out,scale 0.8s ease; */
+    }
+  
+    .translated {
+      transform: translateX(-3789px) translateY(-934px);
+      scale: 0.3;
+      opacity: 0;
+    }
+  
+    .hidden {
+      transform: translateX(0) translateY(0);
+      scale: 1;
+      display: none;
+    }
+  
+    .hidden1 {
+      display: block;
+    }
+  
+    body {
+      height: 100vh;
+    }
+  
+    #text1 {
+      font-family: Montserrat ExtraBold;
+      position: absolute;
+      top: 20%;
+      left: 5%;
+  
+    }
+  
+    #text2 {
+      font-family: Montserrat ExtraBold;
+      position: absolute;
+      top: 22%;
+      left: 5%;
+      font-size: 50px;
+    }
+  
+    #text3 {
+      font-family: Poppins Black;
+      position: absolute;
+      top: 22%;
+      left: 11%;
+      font-size: 50px;
+      -webkit-text-stroke: 2.5px rgb(237, 222, 62);
+      color: white;
+    }
+  
+    #box1 {
+      height: 25px;
+      width: 350px;
+      background-color: #d7e41a;
+      position: absolute;
+      top: 34%;
+      left: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    #text4 {
+      font-family: Montserrat ExtraBold;
+    }
+  
+    #box2 {
+      height: 125px;
+      width: 470px;
+  
+      position: absolute;
+      top: 40%;
+      left: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #box3 {
+      height: 75px;
+      width: 470px;
+      position: absolute;
+      top: 58%;
+      left: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #box4 {
+      height: 55px;
+      width: 270px;
+      position: absolute;
+      border-radius: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #text6 {
+      font-family: Montserrat ExtraBold;
+      color: whitesmoke;
+    }
+  
+    #text0 {
+      font-family: Montserrat ExtraBold;
+      color: whitesmoke;
+      margin-top: -25px;
+    }
+  
+    .animation {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      display: flex;
+      height: 100%;
+      width: 100%;
+  
+    }
+  
+    .randi1 {
+      flex: 0.6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 1;
+      transition: opacity 1s ease-in-out;
+  
+  
+    }
+  
+    .randi2 {
+      flex: 0.4;
+      background-size: 100%;
+    }
+  
+    .image {
+      flex: 0.4;
+  
+    }
+  
+    #randibox {
+      height: 50%;
+      width: 80%;
+      background-color: #ffffff;
+  
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .randibox1 {
+      flex: 0.1;
+  
+      font-family: Montserrat ExtraBold;
+    }
+  
+    .randibox2 {
+      flex: 0.15;
+      margin-top: -25px;
+  
+  
+  
+  
+    }
+  
+    #iam {
+      font-family: Montserrat ExtraBold;
+      font-size: 50px;
+    }
+  
+    #namemain {
+      flex: 0.8;
+      font-family: Poppins Black;
+      font-size: 50px;
+      -webkit-text-stroke: 2.5px rgb(237, 222, 62);
+      color: white;
+    }
+  
+    .randibox3 {
+      flex: 0.55;
+  
+      font-family: Montserrat;
+      margin-top: 10px;
+    }
+  
+    .randibox7 {
+      flex: 0.1;
+      display: flex;
+    }
+  
+    .randibox6 {
+      flex: 0.1;
+      width:
+        50%;
+      display: flex;
+  
+      align-items: center;
+    }
+  
+    .animation.show {
+      opacity: 1;
+    }
+  
+    .animation.anio {
+      opacity: 0;
+    }
+  
+    #box5 {
+      height: 100%;
+      width: 11.95%;
+  
+      position: absolute;
+      top: 0%;
+      left: -12%;
+      transition: transform 0.8s ease-in-out;
+  
+  
+    }
+  
+    #box6 {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #d7e41a;
+    }
+  
+    #text7,
+    #text8,
+    #text9,
+    #text10,
+    #text11 {
+      font-family: Montserrat ExtraBold;
+      font-size: 15px;
+      color: rgb(0, 0, 0);
+      margin-bottom: 20px;
+      transition: color 1s ease;
+    }
+  
+    #text16,
+    #text17,
+    #text18,
+    #text19,
+    #text20 {
+      font-family: Montserrat ExtraBold;
+      font-size: 15px;
+      color: rgb(0, 0, 0);
+  
+      transition: color 1s ease;
+    }
+  
+  
+  
+    .boxt {
+      transform: translateX(100%);
+    }
+  
+    #box8 {
+      height: 100%;
+      width: 88%;
+      position: absolute;
+      top: 0%;
+      left: 11.9%;
+  
+      z-index: 1;
+  
+    }
+  
+    #box9 {
+      height: 26.5%;
+      width: 100%;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    #box10 {
+      height: 73.5%;
+      width: 100%;
+      position: absolute;
+      top: 26.5%;
+      left: 0%;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+    #box11 {
+      font-size: 70px;
+      font-family: Montserrat ExtraBold;
+      height: 80%;
+      width: 80%;
+      border-style: dashed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #box12 {
+      font-size: 30px;
+      font-family: Montserrat;
+      height: 90%;
+      width: 90%;
+    }
+  
+    #box13 {
+      height: 30%;
+      width: 100%;
+  
+    }
+  
+    #box14 {
+      height: 70%;
+      width: 100%;
+  
+    }
+  
+  
+  
+    #box15 {
+      height: 100%;
+      width: 70%;
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .aftab {
+      flex: 1;
+      /* border: 1px solid #cfcece; */
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #box16 {
+      height: 100%;
+      width: 30%;
+      background-color: rgb(255, 255, 0);
+      position: relative;
+      left: 70%;
+      top: -100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .nirjara {
+      flex: 1;
+      border: 0.5px solid #ffffff;
+      border-style: dashed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    #text14 {
+      font-size: 17px;
+      font-family: Montserrat;
+    }
+  
+    .rachel {
+      flex: 1;
+  
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .rachel1 {
+      flex: 1;
+  
+      display: flex;
+      flex-direction: column;
+    }
+  
+  
+    .video {
+      height: 68.5%;
+      width: 100%;
+      position: absolute;
+      top: 31.5%;
+      left: 0%;
+      display: flex;
+      flex-direction: row;
+      transition: opacity 1s ease;
+    }
+  
+    .brochure {
+      height: 68.5%;
+      width: 100%;
+      position: absolute;
+      top: 31.5%;
+      left: 0%;
+      display: flex;
+      flex-direction: row;
+      transition: opacity 1s ease;
+      opacity: 0;
+      transition: opacity 1s ease;
+  
+    }
+  
+    .merch {
+      height: 68.5%;
+      width: 100%;
+      position: absolute;
+      top: 31.5%;
+      left: 0%;
+      display: flex;
+      flex-direction: row;
+      transition: opacity 1s ease;
+      opacity: 0;
+      transition: opacity 1s ease;
+  
+    }
+  
+    .webdev {
+      height: 68.5%;
+      width: 100%;
+      position: absolute;
+      top: 31.5%;
+      left: 0%;
+      display: flex;
+      flex-direction: row;
+      transition: opacity 1s ease;
+      opacity: 0;
+      transition: opacity 1s ease;
+  
+  
+    }
+  
+    .webdev.webani {
+      opacity: 1;
+    }
+  
+    .merch.merchani {
+      opacity: 1s;
+    }
+  
+    .brochure.broani {
+      opacity: 1;
+    }
+  
+    .rachel5 {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background-size: 90%;
+      background-position: center;
+      background-repeat: no-repeat;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .rachel6 {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background-size: 90%;
+      background-position: center;
+      background-repeat: no-repeat;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .rachel2 {
+      flex: 0.2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .rachel3 {
+      flex: 0.6;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    .rachel4 {
+      flex: 0.2;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .rachelimage2 {
+      flex: 0.7;
+      display: flex;
+      flex-direction: column;
+  
+    }
+  
+    .rachelimage4 {
+      flex: 1;
+      flex-direction: row;
+      background-size: 80%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  
+  
+    .rachelimage1 {
+      flex: 0.3;
+      border: 1px solid #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: 90%;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+    }
+  
+    .rachelimage3 {
+      flex: 1;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: 80%;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+  
+    }
+  
+    .heading {
+      flex: 0.2;
+      border: 1px solid #000;
+      font-size: 15px;
+    }
+  
+    .des {
+      flex: 0.8;
+      border: 1px solid #000;
+  
+      font-size: 10px;
+    }
+  
+    #image2 {
+      scale: 0.1
+    }
+  
+    .box7 {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+  
+    .box7.aboutmeanimation {
+      opacity: 1;
+    }
+  
+    #box18 {
+      height: 100%;
+      width: 88%;
+      position: absolute;
+      top: 0%;
+      left: 11.9%;
+      z-index: 3;
+  
+  
+    }
+  
+    #box24 {
+      height: 100%;
+      width: 88%;
+      position: absolute;
+      top: 0%;
+      left: 11.9%;
+      z-index: 3;
+  
+  
+    }
+  
+    #box27 {
+      height: 100%;
+      width: 88%;
+      position: absolute;
+      top: 0%;
+      left: 11.9%;
+      z-index: 3;
+    }
+  
+    #box28 {
+      height: 26.5%;
+      width: 100%;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #box29 {
+      font-size: 70px;
+      font-family: Montserrat ExtraBold;
+      height: 80%;
+      width: 80%;
+      border-style: dashed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #box12new {
+      font-size: 30px;
+      font-family: Montserrat;
+      height: 90%;
+      width: 90%;
+    }
+  
+    #boxhome {
+      height: 30%;
+      width: 100%;
+      position: absolute;
+      top: 26.5%;
+      left: 0%;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #boxp {
+      height: 43.5%;
+      width: 100%;
+      position: absolute;
+      top: 56.5%;
+      left: 0%;
+  
+    }
+  
+    .p {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .phoebe {
+      flex: 1;
+  
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .phoebe1 {
+      flex: 0.5;
+  
+    }
+  
+    .phoebe2 {
+      flex: 0.5;
+  
+      display: flex;
+      font-size: 20px;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .resume {
+      opacity: 0;
+      transition: opacity 1s ease;
+    }
+  
+    .resume.resani {
+      opacity: 1;
+    }
+  
+    .contact {
+      opacity: 0;
+      transition: opacity 1s ease;
+    }
+  
+    .contact.conani {
+      opacity: 1;
+    }
+  
+    #box19 {
+      height: 26.5%;
+      width: 100%;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    #box22 {
+      height: 26.5%;
+      width: 100%;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+  
+    }
+  
+  
+  
+    #box25 {
+      height: 73.5%;
+      width: 100%;
+      position: absolute;
+      top: 26.5%;
+      left: 0%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+  
+    #box21 {
+      height: 5%;
+      width: 100%;
+      position: absolute;
+      top: 26.5%;
+      left: 0%;
+  
+  
+      display: flex;
+      flex-direction: row;
+      z-index: 2;
+    }
+  
+    .graphic {
+      height: 68.5%;
+      width: 100%;
+      position: absolute;
+      top: 31.5%;
+      left: 0%;
+      display: flex;
+      flex-direction: row;
+      transition: opacity 1s ease;
+    }
+  
+    .graphics.grana {
+      opacity: 0;
+    }
+  
+    .ross {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Montserrat ExtraBold;
+      color: antiquewhite;
+    }
+  
+    .ross1 {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+    }
+  
+    .joey1 {
+      flex: 0.13;
+      flex-direction: row;
+      font-family: Montserrat ExtraBold;
+      font-size: 18px;
+  
+    }
+  
+    .joey2 {
+      flex: 0.87;
+      flex-direction: column;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .joey3 {
+      flex: 0.2;
+  
+      display: flex;
+      align-items: center;
+    }
+  
+    .joey4 {
+      flex: 0.8;
+  
+      font-family: Montserrat;
+  
+    }
+  
+    .monica {
+      flex: 1;
+      border: 1px solid #ffffff;
+      display: flex;
+      justify-content: center;
+  
+    }
+  
+    #box20 {
+      font-size: 70px;
+      font-family: Montserrat ExtraBold;
+      height: 80%;
+      width: 80%;
+      border-style: dashed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #box23 {
+      font-size: 70px;
+      font-family: Montserrat ExtraBold;
+      height: 80%;
+      width: 80%;
+      border-style: dashed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+  
+    #box26 {
+  
+      height: 80%;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+  
+    }
+  
+  
+    .box17 {
+      opacity: 0;
+      transition: opacity 1s ease;
+      z-index: 3;
+    }
+  
+    .box17.ani1 {
+      opacity: 1;
+    }
+  
+    .hidden {
+      opacity: 0;
+      pointer-events: none;
+      /* Prevent hidden elements from blocking clicks */
+    }
+  
+    .video {
+      opacity: 0;
+      transition: opacity 1s ease;
+    }
+  
+    .video.vidani {
+      opacity: 1;
+    }
+  }
+  
+  
+  @media (min-width:300px) and (max-width: 700px) {
+  
+  
+  
+    body {
+      background-color: #cecece;
+      height: 100vh;
+    }
+  
+    #image {
+  
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      transition: transform 0.8s ease-in-out, scale 0.8s ease;
+      z-index: 1;
+    }
+  
+    #image1 {
+      height: 90%;
+      position: absolute;
+      top: 70px;
+      right: 0px;
+      opacity: 1;
+      transition: opacity 1s ease;
+      /* transition: transform 0.8s ease-in-out,scale 0.8s ease; */
+    }
+  
+    .translated {
+      opacity: 0;
+    }
+  
+  
+  
+  
+    #text1 {
+      font-family: Montserrat ExtraBold;
+      position: absolute;
+      top: 20%;
+      left: 5%;
+  
+    }
+  
+    #text2 {
+      font-family: Montserrat ExtraBold;
+      position: absolute;
+      top: 22%;
+      left: 5%;
+      font-size: 50px;
+    }
+  
+    #text3 {
+      font-family: Poppins Black;
+      position: absolute;
+      top: 22%;
+      left: 11%;
+      font-size: 50px;
+      -webkit-text-stroke: 2.5px rgb(237, 222, 62);
+      color: white;
+    }
+  
+    #box1 {
+      height: 25px;
+      width: 350px;
+      background-color: #d7e41a;
+      position: absolute;
+      top: 34%;
+      left: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    #text4 {
+      font-family: Montserrat ExtraBold;
+  
+    }
+  
+    #box2 {
+      height: 125px;
+      width: 470px;
+  
+      position: absolute;
+      top: 40%;
+      left: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #box3 {
+      height: 75px;
+      width: 470px;
+      position: absolute;
+      top: 58%;
+      left: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #box4 {
+      height: 55px;
+      width: 270px;
+      position: absolute;
+      border-radius: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #text6 {
+      font-family: Montserrat ExtraBold;
+      color: whitesmoke;
+    }
+  
+    #text0 {
+      font-family: Montserrat ExtraBold;
+      color: whitesmoke;
+      margin-top: -25px;
+    }
+  
+    .animation {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+    }
+  
+    .randi1 {
+      flex: 0.5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 1;
+      transition: opacity 1s ease-in-out;
+  
+    }
+  
+    .randi2 {
+      flex: 0.5;
+      background-size: 80%;
+      margin-top: 25px;
+    }
+  
+    .image {
+      flex: 0.4;
+  
+    }
+  
+    #randibox {
+      height: 50%;
+      width: 80%;
+  
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .randibox1 {
+      flex: 0.1;
+  
+      font-family: Montserrat ExtraBold;
+    }
+  
+    .randibox2 {
+      flex: 0.15;
+      display: flex;
+      flex-direction: row;
+      font-size: 27px;
+  
+    }
+  
+    #iam {
+      flex: 0.2;
+      font-family: Poppins Black;
+  
+    }
+  
+    #namemain {
+      flex: 0.8;
+      font-family: Poppins Black;
+      -webkit-text-stroke: 1.5px rgb(237, 222, 62);
+      color: white;
+      position: absolute;
+      left: 25%
+    }
+  
+    .randibox3 {
+      flex: 0.55;
+      font-size: 10px;
+      font-family: Montserrat;
+      text-align: justify;
+      margin-top: 10px;
+      margin-bottom: 50px;
+    }
+  
+    .randibox7 {
+      flex: 0.1;
+      display: flex;
+      margin-top: 10px;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    .randibox6 {
+      flex: 0.1;
+      width: 100%;
+      display: flex;
+  
+      align-items: center;
+    }
+  
+    .animation.show {
+      opacity: 1;
+    }
+  
+    .animation.anio {
+      opacity: 0;
+    }
+  
+    #box5 {
+      height: 4.3%;
+      width: 100%;
+      position: absolute;
+      top: -10%;
+      left: 0%;
+      transition: transform 0.8s ease-in-out;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000000;
+  
+  
+    }
+  
+    #box6 {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      height: 100%;
+      width: 100%;
+      background-color: #d7e41a;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  
+    }
+  
+    #text7,
+    #text8,
+    #text9,
+    #text10,
+    #text11 {
+      font-weight: 550;
+      font-family: Montserrat;
+      font-size: 10px;
+      color: rgb(0, 0, 0);
+  
+      transition: color 1s ease;
+    }
+  
+    #text16,
+    #text17,
+    #text18,
+    #text19,
+    #text20 {
+      font-weight: 550;
+      font-family: Montserrat;
+      font-size: 9.5px;
+      color: rgb(0, 0, 0);
+      transition: color 1s ease;
+    }
+  
+  
+  
+    .boxt {
+      transform: translateY(231%);
+    }
+  
+    #box8 {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 8%;
+      left: 0%;
+  
+      z-index: 1;
+  
+    }
+  
+    #box9 {
+      height: 26.5%;
+      width: 100%;
+      position: absolute;
+      top: -5%;
+      left: 0%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    #box10 {
+      height: 73.5%;
+      width: 100%;
+      position: absolute;
+      top: 16.5%;
+      left: 0%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+  
+    #box11 {
+      font-size: 50px;
+      font-family: Montserrat ExtraBold;
+      height: 50%;
+      width: 90%;
+      border-style: dashed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #box12 {
+      font-family: Montserrat;
+      height: 90%;
+      width: 90%;
+    }
+  
+    #text14 {
+      font-size: 30px;
+      text-align: justify;
+    }
+  
+    #box13 {
+      height: 30%;
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    #box14 {
+      height: 80%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      margin-bottom: 5000px;
+    }
+  
+    #box15 {
+      background-color: rgb(0, 0, 0);
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+    }
+  
+    #box16 {
+      background-color: rgb(255, 255, 0);
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+  
+    .aftab {
+      flex: 1;
+      /* border: 1px solid #cfcece; */
+      display: flex;
+      flex-direction: column;
+    }
+  
+  
+  
+    .nirjara {
+      flex: 1;
+      border: 0.5px solid #ffffff;
+      border-style: dashed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    #text14 {
+      font-size: 12px;
+      font-family: Montserrat;
+    }
+  
+    .rachel {
+      flex: 1;
+  
+  
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .rachel1 {
+      flex: 1;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: row;
+  
+      height: 150%;
+    }
+  
+  
+    .video {
+      height: 68.5%;
+      width: 100%;
+      position: absolute;
+      top: 31.5%;
+      left: 0%;
+      display: flex;
+      flex-direction: column;
+      transition: opacity 1s ease;
+    }
+  
+    .brochure {
+      height: 68.5%;
+      width: 100%;
+      position: absolute;
+      top: 31.5%;
+      left: 0%;
+      display: flex;
+      flex-direction: column;
+      transition: opacity 1s ease;
+      opacity: 0;
+      transition: opacity 1s ease;
+      gap: 20px;
+  
+    }
+  
+    .merch {
+      height: 68.5%;
+      width: 100%;
+      position: absolute;
+      top: 31.5%;
+      left: 0%;
+      display: flex;
+      flex-direction: column;
+      transition: opacity 1s ease;
+      opacity: 0;
+      transition: opacity 1s ease;
+      gap: 20px;
+  
+    }
+  
+    .webdev {
+      height: 68.5%;
+      width: 100%;
+      position: absolute;
+      top: 31.5%;
+      left: 0%;
+      display: flex;
+      flex-direction: column;
+      transition: opacity 1s ease;
+      opacity: 0;
+      transition: opacity 1s ease;
+      gap: 20px;
+  
+    }
+  
+    .webdev.webani {
+      opacity: 1;
+    }
+  
+    .merch.merchani {
+      opacity: 1s;
+    }
+  
+    .brochure.broani {
+      opacity: 1;
+    }
+  
+    .rachel5 {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background-size: 90%;
+      background-position: center;
+      background-repeat: no-repeat;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .rachel6 {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background-size: 90%;
+      background-position: center;
+      background-repeat: no-repeat;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  
+    .rachel2 {
+      flex: 0.2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+  
+    .rachel3 {
+      flex: 0.6;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+  
+    }
+  
+    .rachel4 {
+      flex: 0.2;
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .rachelimage2 {
+      flex: 0.7;
+      display: flex;
+      flex-direction: column;
+  
+    }
+  
+    .rachelimage4 {
+      flex: 1;
+      flex-direction: row;
+      background-size: 86%;
+      background-position: center;
+      background-repeat: no-repeat;
+      border: 1px solid black
+    }
+  
+  
+    .rachelimage1 {
+      flex: 0.3;
+      border: 1px solid #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: 70%;
+      background-position: center;
+      background-repeat: no-repeat;
+  
+    }
+  
+    .rachelimage3 {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: 85%;
+      background-position: center;
+      background-repeat: no-repeat;
+      border: 1px solid black
+    }
+  
+    .heading {
+      flex: 0.2;
+      border: 1px solid #000;
+      font-size: 15px;
+    }
+  
+    .des {
+      flex: 0.8;
+      border: 1px solid #000;
+  
+      font-size: 10px;
+    }
+  
+    #image2 {
+      scale: 0.1
+    }
+  
+    .box7 {
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+  
+    .box7.aboutmeanimation {
+      opacity: 1;
+    }
+  
+    #box18 {
+      height: 95%;
+      width: 100%;
+      position: absolute;
+  
+      top: 5%;
+      left: 0%;
+      z-index: 3;
+  
+  
+    }
+  
+    #box24 {
+      height: 80%;
+      width: 100%;
+      position: absolute;
+      top: 2%;
+      left: 0%;
+      z-index: 3;
+  
+  
+    }
+  
+  
+  
+    .resume {
+      opacity: 0;
+      transition: opacity 1s ease;
+    }
+  
+    .resume.resani {
+      opacity: 1;
+    }
+  
+    .contact {
+      opacity: 0;
+      transition: opacity 1s ease;
+    }
+  
+    .contact.conani {
+      opacity: 1;
+    }
+  
+    #box19 {
+      height: 26.5%;
+      width: 100%;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    #box22 {
+      height: 26.5%;
+      width: 100%;
+  
+      position: absolute;
+      top: 8%;
+      z-index: -1000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    #box27 {
+      height: 100%;
+      width: 100%;
+  
+      z-index: -1000;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      z-index: 3;
+    }
+  
+  
+    #box28 {
+      height: 26.5%;
+      width: 100%;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    #box12new {
+      font-family: Montserrat;
+      height: 90%;
+      width: 90%;
+  
+    }
+  
+    #boxhome {
+      height: 30%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    #boxp {
+      height: 43.5%;
+      width: 100%;
+  
+    }
+  
+    .p {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .phoebe {
+      flex: 1;
+  
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .phoebe1 {
+      flex: 0.4;
+  
+  
+    }
+  
+    .phoebe2 {
+      flex: 0.6;
+  
+      display: flex;
+      font-size: 20px;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+  
+    #box25 {
+      height: 73.5%;
+      width: 100%;
+      position: absolute;
+      top: 26.5%;
+      left: 0%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    #box26 {
+  
+      height: 80%;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+  
+    #box21 {
+      height: 5%;
+      width: 100%;
+      position: absolute;
+      top: 26.5%;
+      left: 0%;
+  
+  
+      display: flex;
+      flex-direction: row;
+      z-index: 2;
+    }
+  
+    .graphic {
+      height: 200.5%;
+      width: 100%;
+      position: absolute;
+      top: 31.5%;
+      left: 0%;
+      display: flex;
+      flex-direction: column;
+      transition: opacity 1s ease;
+    }
+  
+    .graphics.grana {
+      opacity: 0;
+    }
+  
+    .ross {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Montserrat ExtraBold;
+      color: antiquewhite;
+    }
+  
+    .ross1 {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+    }
+  
+    .joey1 {
+      flex: 0.13;
+      flex-direction: row;
+      font-family: Montserrat ExtraBold;
+      font-size: 18px;
+    }
+  
+    .joey2 {
+      flex: 0.87;
+      flex-direction: column;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .joey3 {
+      flex: 0.2;
+  
+      display: flex;
+      align-items: center;
+    }
+  
+    .joey4 {
+      flex: 0.8;
+      font-size: 12px;
+      text-align: justify;
+      font-family: Montserrat;
+  
+    }
+  
+    .monica {
+      flex: 1;
+      border: 1px solid #ffffff;
+      display: flex;
+      justify-content: center;
+  
+    }
+  
+    #box20 {
+      font-size: 50px;
+      font-family: Montserrat ExtraBold;
+      height: 50%;
+      width: 90%;
+      border-style: dashed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #box23 {
+      font-size: 50px;
+      font-family: Montserrat ExtraBold;
+      height: 60%;
+      width: 90%;
+  
+      border-style: dashed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0px;
+    }
+  
+    #box29 {
+      font-size: 50px;
+      font-family: Montserrat ExtraBold;
+      height: 50%;
+      width: 90%;
+      border-style: dashed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+  
+  
+    .box17 {
+      opacity: 0;
+      transition: opacity 1s ease;
+      z-index: 3;
+    }
+  
+    .box17.ani1 {
+      opacity: 1;
+    }
+  
+    .hidden {
+      display: none !important;
+  
+      /* Prevent hidden elements from blocking clicks */
+    }
+  
+    .hidden1 {
+      display: none !important;
+    }
+  
+    .video {
+      opacity: 0;
+      transition: opacity 1s ease;
+    }
+  
+    .video.vidani {
+      opacity: 1;
+    }
+  }

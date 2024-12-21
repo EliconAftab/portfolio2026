@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <style>
+        #movingElement {
+            width: 50px;
+            height: 50px;
+            background-color: blue;
+            position: absolute;
+            transition: all 1s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="movingElement"></div>
+
+    <script>
+        const movingElement = document.getElementById('movingElement');
+
+        // Retrieve position from localStorage
+        const position = JSON.parse(localStorage.getItem('position'));
+        if (position) {
+            movingElement.style.left = position.left + 'px';
+            movingElement.style.top = position.top + 'px';
+        }
+
+        // Animate element into a new position
+        setTimeout(() => {
+            movingElement.style.left = '50px';
+            movingElement.style.top = '50px';
+        }, 100); // Slight delay for smooth animation
+    </script>
+</body>
+
+</html>
